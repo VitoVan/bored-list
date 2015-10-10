@@ -1,0 +1,91 @@
+body{
+    font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",sans-serif;
+    color: #000;
+    background: #FFF none repeat scroll 0% 0%;
+    font-size: 10pt;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #4078c0 !important;
+}
+.header{
+    background-color: white;
+    height: 1.9em;
+    border-bottom-style: solid;
+    border-bottom-color: #848484;
+    border-bottom-width: 0.1em;
+}
+.header>ul>li{
+    float: left;
+    list-style: none;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+    min-width: 7em;
+    border-right-color: #848484;
+    border-right-style: solid;
+    border-right-width: 0.1em;    
+}
+.header>ul>li>a{
+    display: inline-block;
+    min-width: 7em;
+}
+.header>ul>li.wall.current,.header>ul>li.wall:hover{
+    background-color: #1c7c0e;
+}
+.header>ul>li.hall.current,.header>ul>li.hall:hover{
+    background-color: #023482;
+}
+.header>ul>li.hell.current,.header>ul>li.hell:hover{
+    background-color: #848484;
+}
+.header>ul>li.current>a,.header>ul>li>a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.content .item{
+    margin: 0.8em 0.5em;
+}
+.content .item .title{
+    font-size: 1.3em;
+    margin: 0 0 0.3em 0;
+}
+.content .item .subtitle a{
+    color: #828282;
+}
+.content .item .subtitle .funny{
+    color: #1c7c0e;
+}
+.content .item .subtitle .boring{
+    color: #848484;
+}
+span.funny,span.boring{
+    font-weight: bold;
+    font-style: italic;
+    color: #FFF !important;
+    padding: 0.1em 0.5em;
+    border-radius: 0.2em;
+}
+span.funny{
+    background-color: #1c7c0e;
+}
+span.boring{
+    background-color: #848484;
+}
+.content .item .title a:hover{
+    text-decoration: none !important;
+}
